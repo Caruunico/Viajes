@@ -1,0 +1,270 @@
+*{
+    /* background-color: #FFFFFF; */
+    font: normal normal normal 18px/13px Montserrat;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0;
+}
+
+/* Sección  nav*/
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    
+}
+.lista{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 141px;
+}
+.logo{
+    margin-left: 138px;
+}
+a{
+    margin:2%;
+}
+
+
+/* Sección América del Sur*/
+.figure{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 730px;
+    background: transparent url('img/Image.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.figure .titulo{
+    position: absolute;
+    z-index: 2;
+    top: 246px;
+    left: 139px;
+    width: 530px;
+    height: 84px;
+    opacity: 1;
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-bottom: 2px solid #FFFFFF;
+    
+}
+.figure .titulo h1{
+    margin-left: 8px;
+    width: 475px;
+    height: 53px;
+    text-align: center;
+    font: normal normal bold 48px/42px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.subtitulo span {
+        position:absolute;
+        z-index: 2;
+        top: 363px;
+        left: 139px;
+        font: normal normal bold 24px/34px Montserrat;
+        color: #FFFFFF;
+    }
+.subtitulo span {
+        position:absolute;
+        z-index: 2;
+        top: 363px;
+        left: 139px;
+        font: normal normal bold 24px/34px Montserrat;
+        color: #FFFFFF;
+    }
+.subtitulo p{
+    position: absolute;
+    top: 410px;
+    left: 139px;
+    width: 536px;
+    font: normal normal normal 16px/26px Montserrat;
+    color: #FFFFFF;
+   
+}
+.figure .nav-slider{
+    position: absolute;
+    z-index: 2;
+    top: 620px;
+    left: -12px;
+    width: 201px;
+    }
+.rectangulo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 502px;
+    left: 967px;
+    width: 260px;
+    height: 157px;
+    background: #2A3037 0% 0% no-repeat padding-box;
+    border: 2px dashed #FFFFFF;
+    border-radius: 6px;
+    opacity: 0.5;
+}
+
+/* Sección Tendencias */
+.tendencias{
+    padding-top: 100px;
+    margin-top: -35px;
+    top: 744px;
+    left: 0px;
+    width: 100vw;
+    height: 800px;
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.tendencias .title-tendencia{
+    margin-left: 164px;
+    width: 163px;
+    height: 26px;
+    text-align: left;
+    font: normal normal bold 24px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #2A3037;
+    opacity: 1;
+}
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1103px;
+    top: 854px;
+    left: 132px;
+    margin-left: 145px;
+    margin-top: 35px;
+}
+
+.dentro p{
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    top: 1034px;
+    left: 194px;
+    width: 83px;
+    height: 32px;
+    background: #FA6980 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    color: white;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tarjetas .estilo-card{
+    width: 352px;
+    height: 330px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+}
+.tarjetas .titulo-card{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 280px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #2A3037;
+    opacity: 1;
+}
+.tarjetas .texto-card{
+    margin-left: 5px;
+    width: 286px;
+    height: 38px;
+    text-align: left;
+    font: normal normal normal 13px/23px Open Sans;
+    letter-spacing: 0px;
+    color: #7A838D;
+    opacity: 1;
+}
+.tendencia .blog{
+    top: 1316px;
+left: 139px;
+width: 72px;
+height: 20px;
+text-align: left;
+font: normal normal bold 24px/20px Montserrat;
+letter-spacing: 0px;
+color: #2A3037;
+opacity: 1;
+} 
+
+
+
+
+/* Seccion blog */
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+    position: absolute;
+    top: 1340px;
+    left: 163px;
+    width: 726px ;
+    height: 910px;
+    opacity: 1;
+}
+.imagenes img{
+    position: relative;
+    width: 720px;
+    height: 429px;
+}
+.blogs {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1316px;
+    left: 156px;
+    width: 1081px;
+    height: 1010px;
+    opacity: 1;
+    /* border: solid 5px #000;
+ }*/}
+
+
+ .footer  {
+    display: flex;
+    position: absolute;
+    top: 2341px;
+    left: 0px;
+    width: 100vw;
+    height: 96px;
+    background: #2A3037 0% 0% no-repeat padding-box;
+    opacity: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#viaje{ 
+    margin: auto;
+    margin-left: 34px;
+    width: 380px;
+    height: 16px;
+    }
+.redes {
+    display: flex;
+    width: 160px;
+    height: 16px;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
